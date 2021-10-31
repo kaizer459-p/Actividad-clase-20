@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con Dom</title>
+</head>
+<body>
+    <form id="miformulario" name="" >
+        <label>Numero 1:</label>
+        <input type="number" name="" id="valor1" autofocus placeholder="Escriba un numero">
+        <button onclick="limpiar();">limpiar campos</button>
+
+        <br>
+        <br>
+        <label>Numero 2 :</label>
+        <input type="number" name="" id="valor2"  placeholder="Escriba otro numero">
+        <br>
+        <br>
+
+<button type="button" onclick="sumar();">sumar</button>
+<button type="button" onclick="restar();">restar</button>
+<button type="button" onclick="multiplicar();">multiplicar</button>
+<button type="button" onclick="dividir();">dividir</button>
+
+<p>El resultado es igual a: <span id="el-resultado"></span></p>
+</form>   
+       
+<script type="text/javascript" src="dom.js">
+</script>
+    
+    
+</body>
+</html>
